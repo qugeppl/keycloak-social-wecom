@@ -1,0 +1,5 @@
+org/keycloak/social/wecom/WeComIdentityProviderFactory.class
+org/keycloak/social/wecom/WeComProviderConfig.class
+org/keycloak/social/wecom/WeComIdentityProvider.class
+org/keycloak/social/wecom/WeComUserAttributeMapper.class
+org/keycloak/social/wecom/WeComIdentityProvider$Endpoint.class
