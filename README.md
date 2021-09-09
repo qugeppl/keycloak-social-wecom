@@ -16,15 +16,21 @@ mvn clean package
 ~~~
 
 **The plugin jar will be found in ${PluginHome}/target when it build successfully**
+
 ![build_success](images/build_success.png)
 ![plugin_target](images/plugin_target.jpg)
 
-To build Keycloak Official Docker Image with WeCom plugin,pls run
-`docker build -t ${dockerns}/keycloak-social-wecom:${tag} .`
-like 
-`docker build -t qugeppl/keycloak-social-wecom:12.0.4.1 .`
+**To build Keycloak Official Docker Image with WeCom plugin,pls run**
+~~~shell
+docker build -t ${dockerns}/keycloak-social-wecom:${tag} .
+~~~
 
-Effect:
+like:
+~~~shell
+docker build -t qugeppl/keycloak-social-wecom:12.0.4.1 .
+~~~
+
+**Effect**
 Browser view `http://localhost`
 
 Create WeCom Provider:
